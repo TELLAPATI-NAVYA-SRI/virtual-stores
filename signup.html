@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign up - Lifestyle Stores</title>
+    <link href="boot1.css" rel="stylesheet" type="text/css">
+    <style>
+	.panel-primary
+	{
+	   color:black;
+	   background-color:white;
+  	   border-color:white;
+	}
+	.panel>.panel-heading
+	{
+	   border-color:white;
+	   border-radius:0px;
+	   color:black;
+	   background-color:white;
+  	   	
+	}
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="row">
+    <div class="col">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar" >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="boot.html" class="navbar-brand">Virtual Stores</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html"><span class="glyphicon glyphicon-user"></span> login</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> signup</a></li>
+                        
+                    </ul>
+                </div>
+            </div>           
+          </div>
+     
+    </nav>
+    </div>
+    </div>
+    
+
+    <div class="row row-style">
+			<div class="col-lg-6 col-lg-offset-3" >
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h2>SIGN UP</h2>
+					</div>
+					<div class="panel-body">
+						
+			<form  action="signup_script.html" method="POST">
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Name" name="name"  required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control"  placeholder="Email"  name="e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password" name="password" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="Contact" maxlength="10" size="10" name="contact" required>
+                            </div>
+                            <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="City" name="city" required>
+                            </div>
+                            <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Address" name="address" required>
+                            </div>
+                            <a href="login.html" class="btn btn-primary ">submit</a>
+                        </form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+	
+	<footer id="footer"> <div class ="container"> <p align="center">Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p></div></footer>
+  </body>
+</html>
